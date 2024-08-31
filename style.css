@@ -1,0 +1,135 @@
+body {
+    background-color : gray;
+    color : rgb(167, 167, 167) ;
+    font-family : montserrat ;
+    padding : 0px ,0px ,0px ,0px ;
+    padding-bottom : 100px ;
+    padding-top : 50px ;
+}
+
+.heading-1{
+    text-align: center;
+    text-decoration: underline;
+    color : white;
+}
+
+.message-1{
+    margin-top : 0px ;
+    margin-bottom : 0px ;
+}
+
+.message-div-1{
+    background-color : white;
+    width : 100% ;
+    padding-bottom : 5px ;
+    padding-top : 5px ;
+    font-weight : bold ;
+    text-align: center;
+    border-radius : 10px ;
+}
+
+.message-div-2{
+    color : black ;
+    font-weight: bold;
+    height : 200px ;
+    background-color : white;
+    margin-top : 75px ;
+    margin-left : 5%;
+    border-radius : 10px ;
+    width : 55% ;
+    display : flex ;
+    flex-direction: row;
+    box-shadow: 5px 5px 20px rgb(75, 75, 75);
+}
+
+.message-div-3{
+    color : black ;
+    display : flex ;
+    flex-direction : row ; 
+    justify-content: space-between;
+    margin-top : 75px ;
+    height : 200px ;
+    background-color: white;
+    width : 55%;
+    border-radius : 10px ;
+    box-shadow: 5px 5px 20px rgb(75, 75, 75);
+    margin-left : 35%;
+    font-weight: bold;
+}
+
+.img-2 { 
+    height : 200px ;
+    border-radius : 0px 10px 10px 0px ;
+    margin-left : 70px ;
+}
+
+.img-1 {
+    height : 200px ;
+    border-radius : 10px 0px 0px 10px ;
+    margin-right : 70px ;
+}
+
+.message-2{
+    width : 400px ;
+    margin-top : 50px ;
+}
+
+.message-3{
+    width : 400px ;
+    margin-top : 50px ;
+    margin-left : 45px ;
+}
+
+.present-msg {
+    margin:0;
+    text-align : center ;
+    text-decoration: underline;
+    margin-top : 10px ;
+}
+
+.rick-roll-div{
+    background-color : white ;
+    width : 90%;
+    border-radius : 10px;
+    display : flex ;
+    flex-direction: column;
+    margin-top : 75px ;
+    height : 120px ;
+    margin-left : 70px ;
+    box-shadow: 5px 5px 20px rgb(75, 75, 75);
+}
+
+.click-me{
+    width : 130px ;
+    margin-left : 530px ;
+    margin-top : 15px ;
+    height : 45px ;
+    background-color : gray ;
+    color : white ;
+    font-weight : bold ;
+    border : none ;
+    border-radius : 8px ;
+    font-size : 16px ;
+    cursor : pointer ;
+    transition : 0.20s;
+}
+
+.click-me:hover {
+    background-color : rgb(99, 99, 99) ;
+    transition : 0.15s ;
+}
+
+.click-me:active {
+    opacity : 0.8;
+}
+
+.ending-div {
+    color : white ;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px ;
+    position : absolute ;
+    right : 15px ; 
+
+}
+
